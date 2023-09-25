@@ -1,10 +1,30 @@
--- Create sales table
-CREATE TABLE IF NOT EXISTS sales (
-    OrderID INT,
-    OrderDate DATE,
-    ProductID INT,
-    Quantity INT,
-    -- Other columns...
-    Year INT,
-    Month INT
-);
+-- -- Create a table to store sales data
+-- CREATE TABLE IF NOT EXISTS SalesData (
+--     OrderNumber INT AUTO_INCREMENT PRIMARY KEY,
+--     QuantityOrdered INT,
+--     PriceEach DECIMAL(10, 2),
+--     OrderLineNumber INT,
+--     Sales DECIMAL(10, 2),
+--     OrderDate DATE,
+--     Status VARCHAR(255),
+--     QuarterID INT,
+--     MonthID INT,
+--     YearID INT,
+--     ProductLine VARCHAR(255),
+--     MSRP DECIMAL(10, 2),
+--     ProductCode VARCHAR(255),
+--     CustomerName VARCHAR(255),
+--     Phone VARCHAR(20),
+--     AddressLine1 VARCHAR(255),
+--     AddressLine2 VARCHAR(255),
+--     City VARCHAR(255),
+--     State VARCHAR(255),
+--     PostalCode VARCHAR(20),
+--     Country VARCHAR(255),
+--     Territory VARCHAR(255),
+--     ContactLastName VARCHAR(255),
+--     ContactFirstName VARCHAR(255),
+--     DealSize VARCHAR(255)
+-- );
+
+
